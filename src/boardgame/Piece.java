@@ -14,6 +14,9 @@ public abstract class Piece {
 		return board;
 	}
 
+	//Metodos abstratos, são metodos que não são implementados. A implementacao dos metodos abstratos fica por 
+	//responsabilidade da classe filhia, caso ela não também não seje uma classe abstrata. Metodo abstrato faz 
+	//parte de um contrato de comunicação entre classes.
 	public abstract boolean[][] possibleMoves();
 	
 	public boolean possibleMove(Position position) {
